@@ -2,6 +2,17 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## Under the hood
+
+- nuxt-icon
+- @types/node
+- typescript
+- vue-tsc
+- @vueuse/core
+- @vueuse/nuxt
+- pinia
+- @pinia/nuxt
+
 ## Setup
 
 Make sure to install the dependencies:
