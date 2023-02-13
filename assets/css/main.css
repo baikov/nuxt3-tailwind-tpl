@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.dark {
+    @apply bg-gray-800 text-gray-100
+}
+body {
+    min-height: 100vh;
+    overflow: overlay;
+    @apply bg-white text-black dark:bg-gray-900 dark:text-slate-300
+}
+.theme-icon {
+    @apply md:w-8 md:h-8 w-6 h-6;
+}
+
+.icon--off {
+    @apply group-hover:hidden inline-block;
+}
+.icon--on {
+    @apply hidden group-hover:inline-block;
+}
